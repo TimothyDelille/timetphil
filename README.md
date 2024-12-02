@@ -1,5 +1,1 @@
-```bash
-npx create-react-app ./ --template typescript
-```
-
-install tailwindcss: https://tailwindcss.com/docs/guides/create-react-app
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
