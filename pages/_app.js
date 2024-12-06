@@ -2,12 +2,19 @@
 // because we want to import the global styles (needed for tailwind css.
 import "../styles/global.css";
 import { Meddon } from 'next/font/google';
+import { Birthstone_Bounce } from "next/font/google";
 
 export const meddon = Meddon({
     weight: '400',
     subsets: ['latin'],
     display: 'swap',
-  })
+})
+
+export const birthstoneBounce = Birthstone_Bounce({
+    weight: '400',
+    subsets: ['latin'],
+    display: 'swap',
+})
 
   
 export default function MyApp({ Component, pageProps }) {
