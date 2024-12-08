@@ -5,7 +5,6 @@ import React, { useState, useEffect } from 'react';
 import { birthstoneBounce, meddon } from '../pages/_app';
 import Rsvp from '../components/rsvp.js';
 
-import ArrowDrawing from '../components/arrowDrawing.js';
 import StrikeThroughDrawing from '../components/strikeThroughDrawing.js';
 
 function Home() {
