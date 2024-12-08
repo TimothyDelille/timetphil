@@ -17,7 +17,15 @@ function Home() {
       </Head>
     {/* <p className="text-4xl font-pacifico">Mariage de Tim et Phil</p> */}
     {/* hide overflow because picture is full height otherwise */}
-    <div className="relative w-full flex overflow-y-hidden min-h-[40vh] md:min-h-[70vh] bg-cover bg-center bg-fixed" style={{ backgroundImage: 'url(/engagement_pic.JPG)' }}>
+    {/* <div className="relative w-full flex overflow-y-hidden min-h-[40vh] md:min-h-[70vh]">
+      <img className="absolute inset-x-0 top-0 object-cover" src="/engagement_pic.JPG" alt="engagement" />
+      <div className="relative text-white w-10/12 mx-auto my-auto flex flex-col gap-y-5">
+        <p className={`text-4xl md:text-6xl ${birthstoneBounce.className}`}>Philippine</p>
+        <p className={`text-3xl md:text-4xl ${birthstoneBounce.className}`}>et</p>
+        <p className={`text-4xl md:text-6xl ${birthstoneBounce.className}`}>Timothy</p>
+      </div>
+    </div> */}
+    <div className="relative w-full flex overflow-y-hidden py-5 sm:min-h-[70vh] bg-cover bg-center bg-fixed" style={{ backgroundImage: 'url(/engagement_pic.JPG)', backgroundSize: '100%', backgroundPosition: 'top' }}>
       <div className="relative text-white w-10/12 mx-auto my-auto flex flex-col gap-y-5">
         <p className={`text-4xl md:text-6xl ${birthstoneBounce.className}`}>Philippine</p>
         <p className={`text-3xl md:text-4xl ${birthstoneBounce.className}`}>et</p>
