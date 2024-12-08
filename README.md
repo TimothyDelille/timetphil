@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+to prevent err_too_many_redirects, set the cloudflare SSL/TLS setting to `Full (strict)`.

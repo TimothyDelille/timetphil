@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import ArrowDrawing from './arrowDrawing';
+
 export default function Rsvp() {
     const [query, setQuery] = useState("");
     const [guests, setGuests] = useState([]);
@@ -76,10 +78,13 @@ export default function Rsvp() {
       setIsDropdownOpen(false);
     }
     return (
-      <div className="w-10/12 mx-auto">
+      <div>
         <p className="text-2xl mb-2" id="#RSVP">RSVP</p>
+        <div className="relative">
+          <div className="absolute -top-8 md:-top-10 right-10 size-12 md:size-16 rotate-45 mt-1"><ArrowDrawing/></div>
+        </div>
         <div className="relative" onKeyPress={handleKeyPress} onBlur={handleOnBlur}>
-          <div className="px-2 py-1 flex flex-row gap-x-2 border border-neutral-300 focus:border-orange-100 rounded-md w-full">
+          <div className="px-2 py-1 flex flex-row gap-x-2 border border-neutral-300 focus:border-orange-100 rounded-md w-full mx-auto">
           <input
             // outline-none prevents the blue ring when the input is in focus.
             className='bg-transparent outline-none w-full'
@@ -187,7 +192,7 @@ const RsvpModal = ({ selectedGuest, closeFunction }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-      <div className="bg-white rounded-lg p-4 w-5/6 mt-5 mb-auto flex flex-col">
+      <div className="bg-white rounded-lg p-4 w-5/6 md:w-1/4 mt-5 mb-auto flex flex-col">
         <div className="flex flex-row justify-between">
           <p className="text-lg font-light">{selectedGuest.name}</p>
           <button
