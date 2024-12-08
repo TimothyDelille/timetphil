@@ -13,7 +13,7 @@ function Home() {
     <div className="min-h-screen mx-auto flex flex-col gap-3 font-light">
       <Head>
         <title>Tim et Phil</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/engagement_pic_sm.jpeg" />
       </Head>
     {/* <p className="text-4xl font-pacifico">Mariage de Tim et Phil</p> */}
     {/* hide overflow because picture is full height otherwise */}
