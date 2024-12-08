@@ -88,7 +88,7 @@ const Footer = () => {
           <StrikeThroughDrawing/>
         </span>
       </span>
-      &nbsp;tim in California.
+      &nbsp;<a href="https://timothydelille.com" className="text-decoration-none">tim</a> in California.
     </p>
   )
 }
