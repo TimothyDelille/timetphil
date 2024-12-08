@@ -86,7 +86,7 @@ const Registry = () => {
 
 const Footer = () => {
   return (
-    <p className="text-xs mr-10 ml-auto mt-10 mb-2">
+    <p className="text-xs mx-auto sm:mr-10 sm:ml-auto mt-10 mb-2">
       Designed by&nbsp;
       <span className="relative inline-block">Apple
         <span
