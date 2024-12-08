@@ -25,7 +25,7 @@ function Home() {
         <p className={`text-4xl md:text-6xl ${birthstoneBounce.className}`}>Timothy</p>
       </div>
     </div> */}
-    <div className="relative w-full flex overflow-y-hidden py-5 sm:min-h-[70vh] bg-cover bg-center bg-fixed" style={{ backgroundImage: 'url(/engagement_pic.JPG)', backgroundSize: '100%', backgroundPosition: 'top' }}>
+    <div className="relative w-full flex overflow-y-hidden py-5 sm:min-h-[70vh] bg-no-repeat bg-top bg-cover bg-center bg-fixed" style={{ backgroundImage: 'url(/engagement_pic.JPG)', backgroundSize: '100%' }}>
       <div className="relative text-white w-10/12 mx-auto my-auto flex flex-col gap-y-5">
         <p className={`text-4xl md:text-6xl ${birthstoneBounce.className}`}>Philippine</p>
         <p className={`text-3xl md:text-4xl ${birthstoneBounce.className}`}>et</p>
