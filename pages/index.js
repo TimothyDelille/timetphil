@@ -16,7 +16,7 @@ function Home() {
     {/* <p className="text-4xl font-pacifico">Mariage de Tim et Phil</p> */}
     {/* hide overflow because picture is full height otherwise */}
     <div className="relative w-full overflow-y-hidden">
-      <img className="absolute inset-x-0 top-0 object-cover" src="engagement_pic.jpg" alt="engagement" />
+      <img className="absolute inset-x-0 top-0 object-cover" src="/engagement_pic.jpg" alt="engagement" />
       <div className="relative text-white w-10/12 mx-auto flex flex-col gap-y-5 my-5">
         <p className={`text-4xl ${birthstoneBounce.className}`}>Philippine</p>
         <p className={`text-3xl ${birthstoneBounce.className}`}>et</p>
