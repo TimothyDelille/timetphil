@@ -39,8 +39,6 @@ function Home() {
       <p className="text-gray-600 text-center mr-3">le samedi 14 juin 2025</p>
       <Rsvp/>
       <Program />
-      <Address />
-      <Registry />
       </div>
     </div>
     <Footer />
@@ -52,42 +50,21 @@ const Program = () => {
   return (
     <div className="flex flex-col gap-3">
       <p className="text-2xl" id="#programme">Programme</p>
-      <ul>
-        <li>14h30: Messe</li>
-        <li>18h00: Réception au Château de Saint-Senoch</li>
-        <li>20h00: Dîner</li>
-        <li>22h00: party time</li>
-      </ul>
-      <p>Le dimanche 15 juin</p>
-      <ul>
-        <li>11h00: Brunch au Château de Saint-Senoch</li>
-      </ul>
-
-    </div>
-  )
-}
-
-const Address = () => {
-  return (
-    <div className="flex flex-col gap-3">
-      <p className="text-2xl" id="#adresse">Adresse</p>
-      <p>Château de Saint-Senoch</p>
-    </div>
-  )
-}
-
-const Registry = () => {
-  return (
-    <div className="flex flex-col gap-3">
-      <p className="text-2xl" id="#liste-de-mariage">Liste de mariage</p>
-      <p>des jouets par milliers</p>
+      <div>
+        <p><span className="font-bold">14h30:</span> Messe à la Collégiale Saint-Ours de Loches</p>
+        <p>Adresse: <span className="italic">2 Rue Thomas Pactius, 37600 Loches</span></p>
+      </div>
+      <div>
+        <p><span className="font-bold">18h00:</span> Réception au Château de Saint-Senoch</p>
+        <p>Adresse: <span className="italic">Château de Saint-Senoch, 37600 Varennes</span></p>
+      </div>
     </div>
   )
 }
 
 const Footer = () => {
   return (
-    <p className="text-xs mx-auto sm:mr-10 sm:ml-auto mt-10 mb-2">
+    <p className="text-xs mx-auto mt-10 mb-2">
       Designed by&nbsp;
       <span className="relative inline-block">Apple
         <span
