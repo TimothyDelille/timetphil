@@ -30,7 +30,7 @@ function Home() {
     </div> */}
     {/* not enabling parallax for small screens (`bg-fixed`) because it renders poorly on mobile... */}
     <div className="relative w-full flex overflow-y-hidden py-5 sm:min-h-[70vh] bg-no-repeat bg-top bg-cover bg-center bg-local md:bg-fixed" style={{ backgroundImage: 'url(/engagement_pic.JPG)', backgroundSize: '100%' }}>
-      <div className="relative text-white w-10/12 mx-auto my-auto flex flex-col gap-y-1 md:gap-y-5">
+      <div className="relative text-white w-10/12 mx-auto my-auto flex flex-col gap-y-1 md:gap-y-5 text-[#F7F2F0]">
         {/* <p className={`text-4xl md:text-6xl font-thin ${bodoniModa.className}`}>Whereas recognition</p> */}
         <p className={`text-3xl md:text-7xl ${titleFont}`}>Philippine</p>
         <p className={`text-2xl md:text-6xl ${titleFont}`}>&</p>
