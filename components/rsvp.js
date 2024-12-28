@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import ArrowDrawing from './arrowDrawing';
+import { birthstoneBounce, meddon, bodoniModa } from '../pages/_app';
 
 export default function Rsvp() {
     const [query, setQuery] = useState("");
@@ -79,7 +80,7 @@ export default function Rsvp() {
     }
     return (
       <div>
-        <p className="text-2xl mb-2" id="#RSVP">RSVP</p>
+        <p className={`text-2xl mb-2 ${bodoniModa.className}`} id="#RSVP">RSVP</p>
         <div className="relative">
           <div className="absolute -top-8 md:-top-10 right-10 size-12 md:size-16 rotate-45 mt-1"><ArrowDrawing/></div>
         </div>

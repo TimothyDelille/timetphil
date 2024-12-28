@@ -7,10 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        "pacifico": ["Pacifico", "sans-serif"],
-        "meddon": ["Meddon", "sans-serif"],
-      },
     },
   },
   plugins: [],
