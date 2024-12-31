@@ -40,7 +40,7 @@ function Home() {
     
     <div className="w-full md:w-1/3 mx-auto">
       <div className="flex flex-col gap-y-3 w-10/12 mx-auto">
-      <p className={`text-gray-700 text-lg text-left mr-3`}>Le samedi 14 juin 2025</p>
+      <p className={`text-gray-700 text-md text-left mr-3`}>Le samedi 14 juin 2025</p>
       <Rsvp/>
       <Program />
       </div>

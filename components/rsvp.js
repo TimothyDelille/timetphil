@@ -87,6 +87,7 @@ export default function Rsvp() {
         <div className="relative" onKeyPress={handleKeyPress} onBlur={handleOnBlur}>
           <div className="px-2 py-1 flex flex-row gap-x-2 border border-neutral-300 focus:border-orange-100 rounded-md w-full mx-auto">
           <input
+            id="rsvp-input"
             // outline-none prevents the blue ring when the input is in focus.
             className='bg-transparent outline-none w-full'
             type="text"
@@ -122,7 +123,13 @@ const Dropdown = ({ guests, selectGuest }) => {
   }
 
   return (
-    <div className="absolute w-full mt-1 bg-white border rounded-md shadow-lg overflow-y-auto max-h-40">
+    <div
+    className="absolute w-full mt-1 bg-white border rounded-md shadow-lg overflow-y-auto max-h-40"
+    onTouchStart={(e) => {
+      // Prevent input from maintaining focus when touching the dropdown
+      document.getElementById('rsvp-input').blur();
+    }}
+    >
         {guests.map(guest => (
           <div
             key={guest.id}
