@@ -10,7 +10,6 @@ import StrikeThroughDrawing from '../components/strikeThroughDrawing.js';
 function Home() {
 
   const titleFont = parisienne.className;
-  // const titleFont = bodoniModa.className;
 
   return (
     <div className="min-h-screen mx-auto flex flex-col gap-3 font-light">
@@ -58,6 +57,10 @@ const Program = () => {
       <div>
         <p><span className="font-bold">14h30:</span> Messe à la Collégiale Saint-Ours de Loches</p>
         <p>Adresse: <span className="italic">2 Rue Thomas Pactius, 37600 Loches</span></p>
+        <p>
+          <br/>
+          La collégiale est dans la cité royale qui est piétonne, prévoyez un peu de temps pour vous garer et accéder à l'église. En cas de difficulté pour marcher prenez contact avec nous dès maintenant pour que nous organisions une solution.
+        </p>
       </div>
       <div>
         <p><span className="font-bold">17h30:</span> Réception au Château de Saint-Senoch</p>
